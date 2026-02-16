@@ -1,0 +1,33 @@
+# Big 5 Canadian Bank Earnings Sentiment Analyzer
+# Install: pip install -r requirements.txt
+
+# Core
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# NLP & Sentiment
+vaderSentiment>=3.3.2
+transformers>=4.35.0
+torch>=2.1.0
+nltk>=3.8.0
+
+# Embeddings & Vector DB
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+
+# LLM
+anthropic>=0.39.0
+
+# Dashboard
+streamlit>=1.29.0
+plotly>=5.18.0
+
+# Utilities
+tqdm>=4.66.0
+loguru>=0.7.0
